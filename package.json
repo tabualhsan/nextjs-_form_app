@@ -13,9 +13,13 @@
     "font-face": "^2.3.4",
     "formik": "^2.2.9",
     "formilk": "^0.21.0",
+    "framer-motion": "^7.6.17",
     "next": "13.0.5",
     "react": "18.2.0",
+    "react-confetti": "^6.1.0",
+    "react-confetti-explosion": "^1.5.1",
     "react-dom": "18.2.0",
+    "react-router-dom": "^6.4.4",
     "yup": "^0.32.11"
   },
   "devDependencies": {

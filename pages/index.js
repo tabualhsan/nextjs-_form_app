@@ -3,11 +3,11 @@ import formImage from "../public/form.png";
 import Image from "next/image";
 import { useFormik } from "formik";
 import * as Yup from "yup";
-// import { useRouter } from "next/router";
-// import { motion as m } from "framer-motion";
+import { useRouter } from "next/router";
+import { motion as m } from "framer-motion";
 
 export default function Home() {
-  // const router = useRouter();
+  const router = useRouter();
 
   const formik = useFormik({
     initialValues: {
@@ -35,7 +35,7 @@ export default function Home() {
   });
 
   return (
-    <div
+    <m.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
@@ -180,6 +180,6 @@ export default function Home() {
           </div>
         </form>
       </main>
-    </div>
+    </m.div>
   );
 }
